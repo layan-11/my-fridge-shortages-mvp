@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Fridge Shortages — MVP</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>My Fridge Shortages (MVP)</h1>
+      <nav id="nav">
+        <button data-page="home" class="active">Home</button>
+        <button data-page="shortages">Shortages</button>
+        <button data-page="shopping">Shopping List</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="page-login" class="page">
+        <div class="card">
+          <h2>Login</h2>
+          <input id="username" placeholder="Username" />
+          <input id="password" type="password" placeholder="Password" />
+          <button id="loginBtn">Login (mock)</button>
+        </div>
+      </section>
+
+      <section id="page-home" class="page hidden">
+        <h2>Fridge Inventory</h2>
+        <div id="inventory" class="grid"></div>
+      </section>
+
+      <section id="page-shortages" class="page hidden">
+        <h2>Detected Shortages</h2>
+        <div id="shortagesList"></div>
+      </section>
+
+      <section id="page-shopping" class="page hidden">
+        <h2>Smart Shopping List</h2>
+        <div id="shoppingList"></div>
+        <button id="clearShopping">Clear List</button>
+      </section>
+    </main>
+
+    <footer>
+      <small>Prototype — no AI. Inventory is mock data for demo.</small>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

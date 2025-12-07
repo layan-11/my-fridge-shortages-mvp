@@ -1,0 +1,34 @@
+My Fridge Shortages — Demo Script (5 minutes)
+
+1) Intro (20s)
+- "Hi, I'm [Name]. This is My Fridge Shortages — a prototype that helps detect missing items in your fridge and generate a smart shopping list."
+
+2) Project purpose (30s)
+- Explain the problem (duplicate buys, forgetting items, food waste).
+- Say what the system does: captures fridge contents, detects shortages, creates shopping list.
+
+3) Show UI (30s)
+- Open index.html and show the Login screen.
+- Click Login (mock) to go to Home.
+
+4) Home / Inventory (60s)
+- Explain the inventory cards: name, quantity, expiry.
+- Point out 'Out of stock' badge for Cheese.
+
+5) Shortages (60s)
+- Click Shortages page — it shows items missing from essential list (e.g., Cheese, Bread, Yogurt).
+- Click "Add to shopping" to move items to shopping list.
+
+6) Shopping List (40s)
+- Show the items added.
+- Demonstrate removing an item / clearing list.
+
+7) Technical notes (40s)
+- Mention mock data and where detection logic is (app.js).
+- Explain how real system would connect camera + TensorFlow + backend (Node.js + Firebase).
+
+8) Wrap-up (20s)
+- Summarize benefits and next steps.
+- "Thank you" and invite questions.
+
+Total: ~4-5 minutes.
